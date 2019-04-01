@@ -75,17 +75,17 @@ li {
     color: transparent;
 }
 
-.li.hover {
+li.hover {
     color: #C0C1BD;
 }
 
-.li.active {
+li.active {
     box-shadow: none;
     top: 5px;
     color: #333;
 }
 
-.li.ebony {
+li.ebony {
     /* build the key shape */
     z-index: 2;
     position: absolute;
@@ -110,11 +110,11 @@ li {
     box-shadow: 0 3px 5px #ccc, inset 0px 0px 0px 1px rgba(gainsboro, 0.2);
 }
 
-.li.hover {
+li.hover {
     color: gainsboro;
 }
 
-.li.active {
+li.active {
     background-image: linear-gradient(#5F6265, #151B19 50%, #171C1A);
     background: linear-gradient(#5F6265, #151B19 50%, #171C1A);
     border-bottom-width: 8px;
