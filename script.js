@@ -15,7 +15,7 @@ $(document).ready(function(){
   c.play();
   $("li").click( function(){
     var note = this.dataset.note;
-    //alert(note);
+    /*alert(note);*/
    switch(note){
       case "a": a.play();
         break;
@@ -71,8 +71,8 @@ function init() {
   bufferLoader = new BufferLoader(
     context,
     [
-      '/piano_middle_C.mp3',
-      '/piano_middle_C.mp3',
+      '\piano_middle_C.mp3',
+      '\piano_middle_C.mp3',
     ],
     finishedLoading
     );
