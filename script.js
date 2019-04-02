@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var c = $("#mid-c")[0];
+  var c = $("#mid-c")[0];  // grab the first (and only) index of array with ID mid-c 
   var cs = $("#mid-c-sharp")[0];
   var d = $("#mid-d")[0];
   var ds = $("#mid-d-sharp")[0];
